@@ -1,7 +1,20 @@
+<script setup>
+import BarChart from "../components/BarChart.vue"
+</script>
+
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <div class="app-container">
+    <div class="charts-section">
+      <BarChart />
+    </div>
   </div>
 </template>
+
+
+<style scoped>
+.app-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+</style>
